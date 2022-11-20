@@ -7,35 +7,51 @@ import { Abril_Fatface, Jacques_Francois } from "@next/font/google";
 import classNames from "classnames";
 import Image from "next/image";
 import logo from "../assets/logoweb.png";
-import SpotifyOAuthService from "../services/spotify-oauth";
+import SpotifyAPI from "../services/spotify-api";
 import UserCard from "../components/UserCard";
+import { User, Playlist } from "../types/oauth";
 
 // const abril = Jacques_Francois({
 //   weight: "400",
 // });
 
 export default function MainPage({ children }) {
-  const [user, setUser] = React.useState(null);
+  const [user, setUser] = React.useState<User>({});
 
-  const xd = async () => {
-    const result = await SpotifyOAuthService.sendLogin();
-    if (result) {
-      setUser(result);
+  const oAuthCallbakFlow = async () => {
+    if (!SpotifyAPI.validSpotifyOAuthResponse()) return;
+
+    await SpotifyAPI.login();
+    await SpotifyAPI.getPlaylists();
+
+    if (SpotifyAPI.error.length) {
+      // Error manager
+      console.log("error manager");
+      return;
     }
+
+    setUser(SpotifyAPI.user);
   };
 
   React.useEffect(() => {
-    xd();
-
+    oAuthCallbakFlow();
   }, []);
 
   const handleLoginSpotify = () => {
-    SpotifyOAuthService.startOAuthFlow();
+    SpotifyAPI.startOAuthFlow();
   };
 
-  const renderPlaylist = (playlist) => {
-
-  }
+  const renderPlaylist = (playlists: Playlist[]) => {
+    return playlists
+      .filter(({ images }) => images?.length)
+      .map((playlist) => {
+        return (
+          <div>
+            <img src={playlist.images[0].url} width={200} alt="" />
+          </div>
+        );
+      });
+  };
 
   return (
     <div className={"app"}>
@@ -64,10 +80,9 @@ export default function MainPage({ children }) {
         <h3>hacemos casetes recopilados ediciones limitadas desde spotify</h3>
         {/* {children} */}
         <button onClick={handleLoginSpotify}>ingresar a spotify</button>
-        {user && <UserCard image={user.images[0].url} name={user.display_name} />}
+        {user && <UserCard image={user.picture_profile} name={user.id} />}
 
-        {/* {user?.playlists && user.playlists.map(playlist => ({})); } */}
-
+        {user?.playlists && renderPlaylist(user.playlists)}
       </main>
     </div>
   );
