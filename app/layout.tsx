@@ -1,3 +1,7 @@
+import React from "react";
+import "../styles/globals.scss";
+import "../styles/page.scss";
+
 export default function RootLayout({
   children,
 }: {
@@ -6,7 +10,39 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>{children}</body>
+      <body>
+        <div className={"app"}>
+          <header>
+            <div className="container">
+              <h1>minerva tapes</h1>
+            </div>
+            <nav>
+              <div className="container">
+                <ul className="horizontal-menu">
+                  <li>
+                    <a href="">listas</a>
+                  </li>
+                  <li>
+                    <a href="">casetes</a>
+                  </li>
+                  <li>
+                    <a href="">contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+
+          <main className="container">
+            {children}
+            {/* <button onClick={handleLoginSpotify}>ingresar a spotify</button>
+            {user && <UserCard image={user.picture_profile} name={user.id} />}
+
+            {user?.playlists && renderPlaylist(user.playlists)} */}
+          </main>
+        </div>
+
+      </body>
     </html>
   )
 }

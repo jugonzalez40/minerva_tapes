@@ -54,14 +54,16 @@ class SpotifyAPI {
       id: result.display_name,
       country: result.country,
       picture_profile: result.images[0].url,
+      apiUrl: result.href,
     };
 
     return this;
   }
 
   async getPlaylists() {
-    const { items: playlists } = await fetch(
-      `https://api.spotify.com/v1/users/${this.user.id}/playlists?limit=50`,
+
+    const data = await fetch(
+      `${this.user.apiUrl}/playlists?limit=50`,
       {
         headers: {
           Authorization: `Bearer ${this.params.access_token}`,
@@ -69,13 +71,14 @@ class SpotifyAPI {
       }
     ).then((response) => response.json());
 
-    if (!playlists) {
+    debugger; 
+    if (!data.items) {
       // TODO
       console.log("helo");
       return this;
     }
 
-    this.user.playlists = playlists;
+    this.user.playlists = data.items;
     return this;
   }
 }

@@ -9,6 +9,7 @@ export type _User = {
   playlists?: Playlist[];
   country: string;
   picture_profile: string;
+  apiUrl: string;
 };
 
 export type User = Partial<_User>;
