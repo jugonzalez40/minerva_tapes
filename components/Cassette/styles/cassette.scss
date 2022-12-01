@@ -1,15 +1,45 @@
 .mt-cassette {
+    display: flex;
+    border: 5px solid $black;
+    border-bottom: 0;
+    flex-direction: column;
+    border-radius: 5px;
+    width: fit-content;
+    height: 100%;
 
-    display: inline-flex;
-    border: 5px solid black;
-    width: 100%;
+    &__wrapper {
+        cursor: pointer;
+    }
 
     &__img-container {
-        max-height: 250px;
+        height: 255px;
+        width: 255px;
+        position: relative;
 
-        img {
-            width: 250px;
-            height: 100%;
+        @include medium {
+            height: 283px;
+            width: 283px;
+        }
+
+        span {
+            background-color: rgba(15, 255, 80, 0.73);
+
+            position: absolute;
+            padding: 0 5px;
+            border-radius: 0 0 0 5px;
+            z-index: 1;
+            right: 0;
+        }
+    }
+
+    &__title-container {
+        background-color: $black;
+        color: $white;
+        font-family: 'Merriweather', serif;
+        padding: 10px 5px;
+
+        p {
+            margin: 0;
         }
     }
 

@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/globals.scss";
-import "../styles/page.scss";
+import Minerva from '../assets/fond.png';
+
+import Script from 'next/script'
 
 export default function RootLayout({
   children,
@@ -11,7 +13,8 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <div className={"app"}>
+        <div className={"mt-app"}>
+          {/* <img src={Minerva.src} alt="" /> */}
           <header>
             <div className="container">
               <h1>minerva tapes</h1>
@@ -41,6 +44,9 @@ export default function RootLayout({
             {user?.playlists && renderPlaylist(user.playlists)} */}
           </main>
         </div>
+
+
+            <Script src="https://open.spotify.com/embed-podcast/iframe-api/v1"></Script>
 
       </body>
     </html>

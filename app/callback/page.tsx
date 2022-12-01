@@ -2,7 +2,6 @@
 
 import React from "react";
 import "../styles/globals.scss";
-import "../styles/page.scss";
 import SpotifyAPI from "../../services/spotify-api";
 import useSpotifyStore from "../(state)/useSpotifyStore";
 

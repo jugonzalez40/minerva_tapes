@@ -1,7 +1,7 @@
-$back-color: #efebe9;
-
+@import './variables';
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 html,
 body {
   padding: 0;
@@ -10,7 +10,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
     // 'Jacques Francois', serif;
-    background-color: $back-color;
+    background-color: $beige;
 }
 
 a {
@@ -33,3 +33,29 @@ a {
 //     background: black;
 //   }
 // }
+
+
+.container {
+  margin: auto;
+  width: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  @include small {
+    width: 600px;
+  }
+
+  @include medium {
+    width: 980px;
+  }
+
+  @include large {
+    width: 1302px;
+  }
+
+}
+
+
+@import './layout.scss';
+@import '../components/index';

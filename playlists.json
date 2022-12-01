@@ -1,0 +1,782 @@
+{
+  "href": "https://api.spotify.com/v1/users/norkvory/playlists?offset=0&limit=20",
+  "items": [
+    {
+      "collaborative": false,
+      "description": "Spotify Wrapped presenta las canciones que más te han gustado este año.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit"
+      },
+      "href": "https://api.spotify.com/v1/playlists/37i9dQZF1F0sijgNaJdgit",
+      "id": "37i9dQZF1F0sijgNaJdgit",
+      "images": [
+        {
+          "height": null,
+          "url": "https://wrapped-images.spotifycdn.com/image/yts-2022/large/your-top-songs-2022_large_es.jpg",
+          "width": null
+        }
+      ],
+      "name": "Tus canciones favoritas en 2022",
+      "owner": {
+        "display_name": "Spotify",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/spotify"
+        },
+        "href": "https://api.spotify.com/v1/users/spotify",
+        "id": "spotify",
+        "type": "user",
+        "uri": "spotify:user:spotify"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MTY2ODE3NzY5NCwwMDAwMDAwMDUyZWMzNGJjMGZmZDRhNGFkZmU1N2ZiOTE3ZGIyOTAz",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1F0sijgNaJdgit/tracks",
+        "total": 101
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:37i9dQZF1F0sijgNaJdgit"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7DLNv6VKHI4OPuXCwlUy6w"
+      },
+      "href": "https://api.spotify.com/v1/playlists/7DLNv6VKHI4OPuXCwlUy6w",
+      "id": "7DLNv6VKHI4OPuXCwlUy6w",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebb62ed973e4cecb48fb6a99a2c",
+          "width": null
+        }
+      ],
+      "name": "Your Skull Is Red",
+      "owner": {
+        "display_name": "Taake",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/nxz4zdxx9w6ducdy3ycmgs1kk"
+        },
+        "href": "https://api.spotify.com/v1/users/nxz4zdxx9w6ducdy3ycmgs1kk",
+        "id": "nxz4zdxx9w6ducdy3ycmgs1kk",
+        "type": "user",
+        "uri": "spotify:user:nxz4zdxx9w6ducdy3ycmgs1kk"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MjI3NSw4MmQ1MWUzODJhNjM3MTg3ZmJlMzgwMTRiZjY3NmQ1NDU2Y2E1YjFj",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7DLNv6VKHI4OPuXCwlUy6w/tracks",
+        "total": 297
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:7DLNv6VKHI4OPuXCwlUy6w"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2hOf4sp8FsbTxC8GC70iqr"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2hOf4sp8FsbTxC8GC70iqr",
+      "id": "2hOf4sp8FsbTxC8GC70iqr",
+      "images": [],
+      "name": "Mi playlist n.° 61",
+      "owner": {
+        "display_name": "norkvory",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/norkvory"
+        },
+        "href": "https://api.spotify.com/v1/users/norkvory",
+        "id": "norkvory",
+        "type": "user",
+        "uri": "spotify:user:norkvory"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MSw3ZDVkYTM0NDMxMDhjYjdkZjk1MzkzNWM4ZjY4N2JiOTgxYmQ3ZDBk",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2hOf4sp8FsbTxC8GC70iqr/tracks",
+        "total": 0
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2hOf4sp8FsbTxC8GC70iqr"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6SEmti8IVBzRM6kipZcbHw"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6SEmti8IVBzRM6kipZcbHw",
+      "id": "6SEmti8IVBzRM6kipZcbHw",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2732519d01c0cca06f134eeadd8ab67616d0000b2736898a982ff3c6049ba52586cab67616d0000b2736b3fa88bdd4af566fbbf2bbfab67616d0000b273d06bd6d3b1f258ba2bca597a",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2732519d01c0cca06f134eeadd8ab67616d0000b2736898a982ff3c6049ba52586cab67616d0000b2736b3fa88bdd4af566fbbf2bbfab67616d0000b273d06bd6d3b1f258ba2bca597a",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2732519d01c0cca06f134eeadd8ab67616d0000b2736898a982ff3c6049ba52586cab67616d0000b2736b3fa88bdd4af566fbbf2bbfab67616d0000b273d06bd6d3b1f258ba2bca597a",
+          "width": 60
+        }
+      ],
+      "name": "Cover band 🎸",
+      "owner": {
+        "display_name": "Juan Pablo Ballesteros Calderon",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/22jdqz267jcxkphgpo2z7xpqy"
+        },
+        "href": "https://api.spotify.com/v1/users/22jdqz267jcxkphgpo2z7xpqy",
+        "id": "22jdqz267jcxkphgpo2z7xpqy",
+        "type": "user",
+        "uri": "spotify:user:22jdqz267jcxkphgpo2z7xpqy"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "NDUsYzdiY2Q2ZGRkOTIyZGE2MmI3YjU2YWExZmE2NjBmYjhjNmY3ZTVhZQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6SEmti8IVBzRM6kipZcbHw/tracks",
+        "total": 34
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6SEmti8IVBzRM6kipZcbHw"
+    },
+    {
+      "collaborative": false,
+      "description": "from the excellent youtube person and or channel",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0hsxlqrLKCMttYAgzkIrXf"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0hsxlqrLKCMttYAgzkIrXf",
+      "id": "0hsxlqrLKCMttYAgzkIrXf",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebbf2a0f90cae30a8cacd27a9c4",
+          "width": null
+        }
+      ],
+      "name": "Terminal Passage",
+      "owner": {
+        "display_name": "Matt O'Brien",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/1231796035"
+        },
+        "href": "https://api.spotify.com/v1/users/1231796035",
+        "id": "1231796035",
+        "type": "user",
+        "uri": "spotify:user:1231796035"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MTgsMDI3YmIwM2M1ZTE2MDExNWU4YzYzNTJlNTY5OTVmMzUzMjY0MjM1Zg==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0hsxlqrLKCMttYAgzkIrXf/tracks",
+        "total": 1293
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0hsxlqrLKCMttYAgzkIrXf"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/5OSmPjS1skVdtjUuiNX2q7"
+      },
+      "href": "https://api.spotify.com/v1/playlists/5OSmPjS1skVdtjUuiNX2q7",
+      "id": "5OSmPjS1skVdtjUuiNX2q7",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b27334d61f92b336ed3c8a719413",
+          "width": 640
+        }
+      ],
+      "name": "Cumple Lau hermosa 🌺",
+      "owner": {
+        "display_name": "Wendiu",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/31l22bfxinw4asdfohrjtv7rggbm"
+        },
+        "href": "https://api.spotify.com/v1/users/31l22bfxinw4asdfohrjtv7rggbm",
+        "id": "31l22bfxinw4asdfohrjtv7rggbm",
+        "type": "user",
+        "uri": "spotify:user:31l22bfxinw4asdfohrjtv7rggbm"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MixlMmJiMzgwNWVjNDQzZmRhZjI5ZGYzYmMxOTZjMjc1M2M4M2FlN2U3",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/5OSmPjS1skVdtjUuiNX2q7/tracks",
+        "total": 1
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:5OSmPjS1skVdtjUuiNX2q7"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0D38DlrPSpSIja2CYiyUDB"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0D38DlrPSpSIja2CYiyUDB",
+      "id": "0D38DlrPSpSIja2CYiyUDB",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2734ad0b6aabd99ef3cc0984f5dab67616d0000b273805635bcbcc786a58aa1d4f5ab67616d0000b273b6913d1cf3f045a5e8c2de17ab67616d0000b273c0e01f3e6f9b88a4d005c8d0",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2734ad0b6aabd99ef3cc0984f5dab67616d0000b273805635bcbcc786a58aa1d4f5ab67616d0000b273b6913d1cf3f045a5e8c2de17ab67616d0000b273c0e01f3e6f9b88a4d005c8d0",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2734ad0b6aabd99ef3cc0984f5dab67616d0000b273805635bcbcc786a58aa1d4f5ab67616d0000b273b6913d1cf3f045a5e8c2de17ab67616d0000b273c0e01f3e6f9b88a4d005c8d0",
+          "width": 60
+        }
+      ],
+      "name": "Minimal House 2022",
+      "owner": {
+        "display_name": "Sarge Malone",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/marc_sarge"
+        },
+        "href": "https://api.spotify.com/v1/users/marc_sarge",
+        "id": "marc_sarge",
+        "type": "user",
+        "uri": "spotify:user:marc_sarge"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MjA0MixhZmY4MGVlOGEyZWEwYTZmODNjOGMzNGZmYjBhYjNlMjQzY2FkYmVm",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0D38DlrPSpSIja2CYiyUDB/tracks",
+        "total": 1035
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0D38DlrPSpSIja2CYiyUDB"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0bM5bqtRX4mTe8cN5LLu91"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0bM5bqtRX4mTe8cN5LLu91",
+      "id": "0bM5bqtRX4mTe8cN5LLu91",
+      "images": [],
+      "name": "Mi playlist n.° 60",
+      "owner": {
+        "display_name": "norkvory",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/norkvory"
+        },
+        "href": "https://api.spotify.com/v1/users/norkvory",
+        "id": "norkvory",
+        "type": "user",
+        "uri": "spotify:user:norkvory"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MSwwOTQwNDg3ZWQ0OWI0NTZhNTliZDBkZjY4ZjQ3ZTA3ODI4YmUxZDRk",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0bM5bqtRX4mTe8cN5LLu91/tracks",
+        "total": 0
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0bM5bqtRX4mTe8cN5LLu91"
+    },
+    {
+      "collaborative": false,
+      "description": "A collection of classics and recent tracks from the world of black and dark metal. Cover: Dimmu Borgir",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXbl9rMxGEmRC"
+      },
+      "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXbl9rMxGEmRC",
+      "id": "37i9dQZF1DXbl9rMxGEmRC",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706f0000000350b2b8aafbcbfe2c7a6d4e41",
+          "width": null
+        }
+      ],
+      "name": "Black & Dark Metal",
+      "owner": {
+        "display_name": "Spotify",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/spotify"
+        },
+        "href": "https://api.spotify.com/v1/users/spotify",
+        "id": "spotify",
+        "type": "user",
+        "uri": "spotify:user:spotify"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MTY2OTM1MjQwMCwwMDAwMDAwMGRjZDIwZTQ3MDlhNzA0N2QzNjAzNjdiNmRmZmY3OGNk",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXbl9rMxGEmRC/tracks",
+        "total": 100
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:37i9dQZF1DXbl9rMxGEmRC"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/3x3QwPRYu804KNYZPTtryw"
+      },
+      "href": "https://api.spotify.com/v1/playlists/3x3QwPRYu804KNYZPTtryw",
+      "id": "3x3QwPRYu804KNYZPTtryw",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b2738863bc11d2aa12b54f5aeb36ab67616d0000b273b7ac8301975b4bcf74dd4fddab67616d0000b273d4daf28d55fe4197ede848be",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b2738863bc11d2aa12b54f5aeb36ab67616d0000b273b7ac8301975b4bcf74dd4fddab67616d0000b273d4daf28d55fe4197ede848be",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27377fdcfda6535601aff081b6aab67616d0000b2738863bc11d2aa12b54f5aeb36ab67616d0000b273b7ac8301975b4bcf74dd4fddab67616d0000b273d4daf28d55fe4197ede848be",
+          "width": 60
+        }
+      ],
+      "name": "Board games night",
+      "owner": {
+        "display_name": "carolinasolero",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/carolinasolero"
+        },
+        "href": "https://api.spotify.com/v1/users/carolinasolero",
+        "id": "carolinasolero",
+        "type": "user",
+        "uri": "spotify:user:carolinasolero"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "OTgsM2NjZDFkNTg2N2U5MDhmYzgxN2I5MDY1NDM4MjQ0MDgxYjBiZTU4Ng==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/3x3QwPRYu804KNYZPTtryw/tracks",
+        "total": 97
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:3x3QwPRYu804KNYZPTtryw"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/50AVMebJlcnKgf0P5pqYAT"
+      },
+      "href": "https://api.spotify.com/v1/playlists/50AVMebJlcnKgf0P5pqYAT",
+      "id": "50AVMebJlcnKgf0P5pqYAT",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2734e89cb9acc3498c773abcadeab67616d0000b27353239cbe10385fafaf3de518ab67616d0000b273600c6207f4192b69a3df5bd3ab67616d0000b273ee0ec368f9b61f602365d864",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2734e89cb9acc3498c773abcadeab67616d0000b27353239cbe10385fafaf3de518ab67616d0000b273600c6207f4192b69a3df5bd3ab67616d0000b273ee0ec368f9b61f602365d864",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2734e89cb9acc3498c773abcadeab67616d0000b27353239cbe10385fafaf3de518ab67616d0000b273600c6207f4192b69a3df5bd3ab67616d0000b273ee0ec368f9b61f602365d864",
+          "width": 60
+        }
+      ],
+      "name": "BnB soul 2",
+      "owner": {
+        "display_name": "norkvory",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/norkvory"
+        },
+        "href": "https://api.spotify.com/v1/users/norkvory",
+        "id": "norkvory",
+        "type": "user",
+        "uri": "spotify:user:norkvory"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTQsNDkxY2JhMzRmNzAzMDM0Mjg3NmEyYTM0ODEwNDI1NmIxOGI1ZjM1MA==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/50AVMebJlcnKgf0P5pqYAT/tracks",
+        "total": 12
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:50AVMebJlcnKgf0P5pqYAT"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/611UBIIk7oKgXky1iwYLfh"
+      },
+      "href": "https://api.spotify.com/v1/playlists/611UBIIk7oKgXky1iwYLfh",
+      "id": "611UBIIk7oKgXky1iwYLfh",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2733138f891f3075c9c5d944037ab67616d0000b2736e423caed017991e802f8ee1ab67616d0000b273962ff78ff496c98e5fed40d8ab67616d0000b273c2eef9f8d1212c80ed4ee399",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2733138f891f3075c9c5d944037ab67616d0000b2736e423caed017991e802f8ee1ab67616d0000b273962ff78ff496c98e5fed40d8ab67616d0000b273c2eef9f8d1212c80ed4ee399",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2733138f891f3075c9c5d944037ab67616d0000b2736e423caed017991e802f8ee1ab67616d0000b273962ff78ff496c98e5fed40d8ab67616d0000b273c2eef9f8d1212c80ed4ee399",
+          "width": 60
+        }
+      ],
+      "name": "RnB soul",
+      "owner": {
+        "display_name": "norkvory",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/norkvory"
+        },
+        "href": "https://api.spotify.com/v1/users/norkvory",
+        "id": "norkvory",
+        "type": "user",
+        "uri": "spotify:user:norkvory"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MjYsMDY3YjhkNTExMWUyNzA3OTU4NzZmZjliNzBkYjVjZjc5ZmExMjgyZQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/611UBIIk7oKgXky1iwYLfh/tracks",
+        "total": 16
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:611UBIIk7oKgXky1iwYLfh"
+    },
+    {
+      "collaborative": false,
+      "description": "<a href=\"https://www.instagram.com/greaserelease\">Wanna get in touch? (click here)</a>. Some groovy, neo soul, smooth, rnb jams for a chill night | neo soul music - chill playlist - sleep music - sexy music - groovy jams - rnb hip hop - alternative rnb - contemporary rnb | IG - @greaserelease",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/5uqTUxJU0pomBReprcQVsL"
+      },
+      "href": "https://api.spotify.com/v1/playlists/5uqTUxJU0pomBReprcQVsL",
+      "id": "5uqTUxJU0pomBReprcQVsL",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebba285a99d606fcdd9b3225585",
+          "width": null
+        }
+      ],
+      "name": "chill rnb 2022",
+      "owner": {
+        "display_name": "GreaseRelease",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/0dj2572qric0zcufh06e2fk56"
+        },
+        "href": "https://api.spotify.com/v1/users/0dj2572qric0zcufh06e2fk56",
+        "id": "0dj2572qric0zcufh06e2fk56",
+        "type": "user",
+        "uri": "spotify:user:0dj2572qric0zcufh06e2fk56"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MTA3OCwwNzg3ZjZlY2ZhMmM3ZTA1ZmQ4MTQ3YzhjNGQzMTU2NTU3YWRiODA1",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/5uqTUxJU0pomBReprcQVsL/tracks",
+        "total": 112
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:5uqTUxJU0pomBReprcQVsL"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/25bYOxjh4rocjk1jAz1ZZK"
+      },
+      "href": "https://api.spotify.com/v1/playlists/25bYOxjh4rocjk1jAz1ZZK",
+      "id": "25bYOxjh4rocjk1jAz1ZZK",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27322f1b1c3e396b003b7bdd637ab67616d0000b2736d965be72ad1bceb7f2bd089ab67616d0000b2738db38e1b6dc66cd4a294a495ab67616d0000b273e28ad0d658dab65407f0c8f5",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27322f1b1c3e396b003b7bdd637ab67616d0000b2736d965be72ad1bceb7f2bd089ab67616d0000b2738db38e1b6dc66cd4a294a495ab67616d0000b273e28ad0d658dab65407f0c8f5",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27322f1b1c3e396b003b7bdd637ab67616d0000b2736d965be72ad1bceb7f2bd089ab67616d0000b2738db38e1b6dc66cd4a294a495ab67616d0000b273e28ad0d658dab65407f0c8f5",
+          "width": 60
+        }
+      ],
+      "name": "Mi playlist n.° 57",
+      "owner": {
+        "display_name": "norkvory",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/norkvory"
+        },
+        "href": "https://api.spotify.com/v1/users/norkvory",
+        "id": "norkvory",
+        "type": "user",
+        "uri": "spotify:user:norkvory"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "Nyw4MDg3ZmIwMTRmNThiYjQ3ZjdhZGZmOWVjZWMwM2E1NTljZGM1MDI1",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/25bYOxjh4rocjk1jAz1ZZK/tracks",
+        "total": 6
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:25bYOxjh4rocjk1jAz1ZZK"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2szj0mM508ZHpg0uFyRlMe"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2szj0mM508ZHpg0uFyRlMe",
+      "id": "2szj0mM508ZHpg0uFyRlMe",
+      "images": [],
+      "name": "Mi playlist n.° 57",
+      "owner": {
+        "display_name": "norkvory",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/norkvory"
+        },
+        "href": "https://api.spotify.com/v1/users/norkvory",
+        "id": "norkvory",
+        "type": "user",
+        "uri": "spotify:user:norkvory"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MSxlNDJhYTE5Mjk5YzkzYmQ1M2RhNTVkYjc4ZmY3MzQ4ZmVhNjFhMzUx",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2szj0mM508ZHpg0uFyRlMe/tracks",
+        "total": 0
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2szj0mM508ZHpg0uFyRlMe"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/3mzQM1DJXnpA9leofMJP1c"
+      },
+      "href": "https://api.spotify.com/v1/playlists/3mzQM1DJXnpA9leofMJP1c",
+      "id": "3mzQM1DJXnpA9leofMJP1c",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebb6f52c71d40022cecf7636bd4",
+          "width": null
+        }
+      ],
+      "name": "Techno & Acid🔥",
+      "owner": {
+        "display_name": "Techno Time Colombia",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/1760js92ckxk4z6qpilwdefc1"
+        },
+        "href": "https://api.spotify.com/v1/users/1760js92ckxk4z6qpilwdefc1",
+        "id": "1760js92ckxk4z6qpilwdefc1",
+        "type": "user",
+        "uri": "spotify:user:1760js92ckxk4z6qpilwdefc1"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "OTc2LDIxM2Y4YWRmOWFiYjIwMzVkNjMxNGMxYjBlY2VkNjg0ZjlkYTk5NGY=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/3mzQM1DJXnpA9leofMJP1c/tracks",
+        "total": 932
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:3mzQM1DJXnpA9leofMJP1c"
+    },
+    {
+      "collaborative": false,
+      "description": "Pop 2000s en Ingles, Britney Spears, Shakira, Lady Gaga, Katy Perry, Christina Aguilera, Beyonce, P!nk, Justin Timberlake, &amp; más. Musica Pop en ingles, Exitos pop del 2000s, Black Eyed Peas, Maddonna, Dance, Pop, Hip Hop, Grandes Exitos.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2BjUrfPhH2JxWcwYDG8Ixx"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2BjUrfPhH2JxWcwYDG8Ixx",
+      "id": "2BjUrfPhH2JxWcwYDG8Ixx",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebbcc1a4ea83ef97ff7e98aeb3b",
+          "width": null
+        }
+      ],
+      "name": "Pop 2000s en Ingles",
+      "owner": {
+        "display_name": "Willyam",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/willyammusic"
+        },
+        "href": "https://api.spotify.com/v1/users/willyammusic",
+        "id": "willyammusic",
+        "type": "user",
+        "uri": "spotify:user:willyammusic"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "ODcsNTU1MGNkNzQ5NTVjOTAxNjY0OTIyMDEyNTg5YzU3MjA3NDVmNGJkNg==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2BjUrfPhH2JxWcwYDG8Ixx/tracks",
+        "total": 82
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2BjUrfPhH2JxWcwYDG8Ixx"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0DFcFTgyzxw7SPTmtS9FRF"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0DFcFTgyzxw7SPTmtS9FRF",
+      "id": "0DFcFTgyzxw7SPTmtS9FRF",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebbdee1ddb3b790adde411c7f6f",
+          "width": null
+        }
+      ],
+      "name": "Pussy Chanel",
+      "owner": {
+        "display_name": "norkvory",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/norkvory"
+        },
+        "href": "https://api.spotify.com/v1/users/norkvory",
+        "id": "norkvory",
+        "type": "user",
+        "uri": "spotify:user:norkvory"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NDQsZDdhMTEzNjQyYTQ1NTRlOWZmNjY2MjA2MjZiZjljNzFlY2EwMmM2ZA==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0DFcFTgyzxw7SPTmtS9FRF/tracks",
+        "total": 24
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0DFcFTgyzxw7SPTmtS9FRF"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/69R5v8XrAI8ZIW45O6vFkg"
+      },
+      "href": "https://api.spotify.com/v1/playlists/69R5v8XrAI8ZIW45O6vFkg",
+      "id": "69R5v8XrAI8ZIW45O6vFkg",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000bebbb5b6e4359ab4439572b9c801",
+          "width": null
+        }
+      ],
+      "name": "Sexual Dreamings",
+      "owner": {
+        "display_name": "norkvory",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/norkvory"
+        },
+        "href": "https://api.spotify.com/v1/users/norkvory",
+        "id": "norkvory",
+        "type": "user",
+        "uri": "spotify:user:norkvory"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "OTYsN2MzMjA0YTJmOTAwMDhmYzU4ODI0MjAzNzAzNWI1YTQzZmE5NjMzZg==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/69R5v8XrAI8ZIW45O6vFkg/tracks",
+        "total": 19
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:69R5v8XrAI8ZIW45O6vFkg"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0E6boVUhNGwENiJvXudHhW"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0E6boVUhNGwENiJvXudHhW",
+      "id": "0E6boVUhNGwENiJvXudHhW",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27322463d6939fec9e17b2a6235ab67616d0000b27396ab64f52273635308b6bf27ab67616d0000b273b3994c94dfb241923664bb4dab67616d0000b273e8dd4db47e7177c63b0b7d53",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27322463d6939fec9e17b2a6235ab67616d0000b27396ab64f52273635308b6bf27ab67616d0000b273b3994c94dfb241923664bb4dab67616d0000b273e8dd4db47e7177c63b0b7d53",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27322463d6939fec9e17b2a6235ab67616d0000b27396ab64f52273635308b6bf27ab67616d0000b273b3994c94dfb241923664bb4dab67616d0000b273e8dd4db47e7177c63b0b7d53",
+          "width": 60
+        }
+      ],
+      "name": "80s ",
+      "owner": {
+        "display_name": "norkvory",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/norkvory"
+        },
+        "href": "https://api.spotify.com/v1/users/norkvory",
+        "id": "norkvory",
+        "type": "user",
+        "uri": "spotify:user:norkvory"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTEsMTZlN2Y0MGMyMzgyZTMyNjgyNTViYjJkNTcwZmJlMmRkMzk4OTk0Nw==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0E6boVUhNGwENiJvXudHhW/tracks",
+        "total": 9
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0E6boVUhNGwENiJvXudHhW"
+    }
+  ],
+  "limit": 20,
+  "next": "https://api.spotify.com/v1/users/norkvory/playlists?offset=20&limit=20",
+  "offset": 0,
+  "previous": null,
+  "total": 112
+}

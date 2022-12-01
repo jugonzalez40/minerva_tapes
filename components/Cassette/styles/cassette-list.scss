@@ -1,9 +1,10 @@
 .mt-cassette-list {
-
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
 
-    .mt-cassette {
-        margin: 15px 0;
+    @include small {
+        justify-content: left;
     }
 }

@@ -1,6 +1,10 @@
+"use client";
+
+declare global {
+  interface Window { onSpotifyIframeApiReady: any; }
+}
+
 import React from "react";
-import "../styles/globals.scss";
-import "../styles/page.scss";
 import { Abril_Fatface, Jacques_Francois } from "@next/font/google";
 import classNames from "classnames";
 import Image from "next/image";
@@ -13,6 +17,8 @@ import SpotifyButton from '../components/SpotifyButton';
 
 import { Cassette } from '../components';
 import CassetteList from "../components/Cassette/CassetteList";
+
+import Script from 'next/script';
 
 // const abril = Jacques_Francois({
 //   weight: "400", 
@@ -33,11 +39,34 @@ export default function MainPage() {
   //     });
   // };
 
+
+
+  React.useEffect(() => {
+    console.log('THE WINDOW', window);
+    window.onSpotifyIframeApiReady = (IFrameAPI) => {
+      let element = document.getElementById('embed-iframe');
+      let options = {
+          // uri: 'spotify:episode:7makk4oTQel546B0PZlDM5'
+          uri: 'spotify:playlist:0DFcFTgyzxw7SPTmtS9FRF'
+        };
+      let callback = (EmbedController) => {};
+      IFrameAPI.createController(element, options, callback);
+    };
+
+  }, [])
+
+
+
   return (
-    <div className={"main-page"}>
+    <div className={"mt-main-page"}>
 
       <SpotifyButton />
 
+      <iframe src="https://open.spotify.com/embed/playlist/0DFcFTgyzxw7SPTmtS9FRF?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div id="embed-iframe"></div>
+
+      
+      <h1>Cassettes </h1>
 
       <CassetteList />
 

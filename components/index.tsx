@@ -1,4 +1,4 @@
-import Cassette from './Cassette';
+import Cassette from './Cassette/Cassette';
 
 
 export {
